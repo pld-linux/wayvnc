@@ -23,10 +23,10 @@ BuildRequires:	rpmbuild(macros) >= 2.042
 BuildRequires:	scdoc
 BuildRequires:	wayland-devel
 BuildRequires:	xorg-lib-libxkbcommon-devel
-Requires:	aml-devel < 0.4.0
-Requires:	aml-devel >= 0.3.0
-Requires:	neatvnc-devel < 0.10
-Requires:	neatvnc-devel >= 0.9
+Requires:	aml < 0.4.0
+Requires:	aml >= 0.3.0
+Requires:	neatvnc < 0.10
+Requires:	neatvnc >= 0.9
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
