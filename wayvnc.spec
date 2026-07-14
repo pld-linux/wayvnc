@@ -1,20 +1,20 @@
 Summary:	A VNC server for wlroots based Wayland compositors
 Name:		wayvnc
-Version:	0.9.1
+Version:	0.10.1
 Release:	1
 License:	ISC
 Group:		Applications
 Source0:	https://github.com/any1/wayvnc/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	a24b8dc1e6fe1fd14ad9532d9dc6f0d6
+# Source0-md5:	c96386e6076e3c86b1c5e6d32704c3d8
 URL:		https://github.com/any1/wayvnc
 BuildRequires:	Mesa-libgbm-devel
-BuildRequires:	aml-devel < 0.4.0
-BuildRequires:	aml-devel >= 0.3.0
+BuildRequires:	aml-devel < 2.0.0
+BuildRequires:	aml-devel >= 1.0.0
 BuildRequires:	jansson-devel
 BuildRequires:	libdrm-devel
 BuildRequires:	meson
-BuildRequires:	neatvnc-devel < 0.10
-BuildRequires:	neatvnc-devel >= 0.9
+BuildRequires:	neatvnc-devel < 2.0.0
+BuildRequires:	neatvnc-devel >= 1.0.0
 BuildRequires:	ninja
 BuildRequires:	pam-devel
 BuildRequires:	pixman-devel
@@ -23,10 +23,10 @@ BuildRequires:	rpmbuild(macros) >= 2.042
 BuildRequires:	scdoc
 BuildRequires:	wayland-devel
 BuildRequires:	xorg-lib-libxkbcommon-devel
-Requires:	aml < 0.4.0
-Requires:	aml >= 0.3.0
-Requires:	neatvnc < 0.10
-Requires:	neatvnc >= 0.9
+Requires:	aml < 2.0.0
+Requires:	aml >= 1.0.0
+Requires:	neatvnc < 2.0.0
+Requires:	neatvnc >= 1.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
