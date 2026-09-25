@@ -1,11 +1,11 @@
 Summary:	A VNC server for wlroots based Wayland compositors
 Name:		wayvnc
-Version:	0.10.1
+Version:	0.10.2
 Release:	1
 License:	ISC
 Group:		Applications
 Source0:	https://github.com/any1/wayvnc/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	c96386e6076e3c86b1c5e6d32704c3d8
+# Source0-md5:	ba79137d99bbfb5ec8d39945ef00ca82
 URL:		https://github.com/any1/wayvnc
 BuildRequires:	Mesa-libgbm-devel
 BuildRequires:	aml-devel < 2.0.0
